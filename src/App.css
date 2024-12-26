@@ -1,0 +1,124 @@
+:root{
+  background-color: #f6f0e7;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+  display: flex;
+  gap: 30%;
+  font-size: larger;
+  
+}
+
+#foo-and-image{
+  display: flex;
+  margin-top: -1%;
+  margin-left: 2%;
+}
+
+#foo-and-image img{
+  max-width: 80% ;
+}
+
+
+
+.header-options{
+  display: flex;
+  margin-left: 26%;
+  float: right;
+  /* border: solid black; */
+  gap: 50px;
+  font-family: Poppins;
+}
+
+.header-options input{
+  transition: .5s;
+  border-radius: 20px;
+  min-width: 30%;
+  max-height:40%;
+  margin-top: 1.5%;
+  background-color: #f6f0e7;
+}
+
+.header-options input:focus{
+  min-width:40%;
+}
+
+#fast{
+  color: #ff7e00;
+  
+}
+#fast h1{
+  font-size: 8em;
+}
+
+#foodDelivery{
+  color: #2f2f2f;
+  display: flex;
+  line-height: -5%;
+  margin-top: 8%;
+  margin-left: 1%;
+  font-size: 1cm;
+  /* border: solid black; */
+  max-height: 5%;
+  max-width: 12%;
+}
+#foodDelivery img{
+  width: 5em;
+  rotate: -17.84deg;
+  margin-left: -2.5em;
+  margin-top: -2em;
+  height: fit-content;
+}
+
+#textin{
+  /* border: solid black; */
+  width: 55%;
+  height: fit-content;
+  color: #909090;
+  margin-top: 35%;
+  margin-left: -40%;
+  font-size: large;
+}
+
+.buttonsDiv{
+  display: flex;
+  gap: 2em;
+  /* border: solid black; */
+  width: fit-content;
+  height:4em;
+  margin-top: -20em;
+  margin-left: 14em;
+
+}
+
+/* boton Order Now */
+/* From Uiverse.io by sekaiking */ 
+.buttonOrderNow {
+  background-color: #2f2f2f;
+  color: #fff;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+}
+
+.buttonOrderNow:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+};
+
+.buttonOrderNow:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+};
+
+#watchVideo img{
+  height: fit-content;
+  border: solid black;
+}
+
