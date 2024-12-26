@@ -88,7 +88,7 @@
   width: fit-content;
   height:4em;
   margin-top: -20em;
-  margin-left: 14em;
+  margin-left: 13em;
 
 }
 
@@ -122,3 +122,12 @@
   border: solid black;
 }
 
+#watchVideo p{
+  font-family: Poppins;
+  font-size: large;
+}
+
+a{
+  text-decoration: none;
+  color: #252525;
+}

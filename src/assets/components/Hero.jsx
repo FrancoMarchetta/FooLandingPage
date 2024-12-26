@@ -31,8 +31,12 @@ export const Hero = () => {
                 </button>
 
                 <div id='watchVideo' style={{ display: "flex" }} >
-                    <img style={{ height: "fit-content" }} src="../../public/playIcon.svg" alt="" />
-                    <p>Watch Video</p>
+                    <a target='blank' href="https://www.youtube.com/watch?v=B4LvDiIi128&t=49s">
+                        <img astyle={{ height: "fit-content" }} src="../../public/playIcon.svg" alt="" />
+                    </a>
+                    <a target='blank' href="https://www.youtube.com/watch?v=B4LvDiIi128&t=49s">
+                        <p>Watch Video</p>
+                    </a>
                 </div>
             </div>
         </>
