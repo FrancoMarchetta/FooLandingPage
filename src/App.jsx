@@ -1,8 +1,9 @@
 import './App.css'
 import Header from './assets/components/Header'
-import { Hero } from './assets/components/Hero'
-import RatingStars from './assets/components/RatingStars'
+import Contact from './assets/pages/Contact';
 import MainPage from './assets/pages/MainPage'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 
 
@@ -10,13 +11,13 @@ function App() {
 
   return (
     <>
-      <section style={{ margin: "2% 0 0 2%" }}>
+      <BrowserRouter>
         <Header></Header>
-
-        <div style={{ margin: "0% 0% 0% 8%" }}>
-          <MainPage></MainPage>
-        </div>
-      </section>
+        <Routes>
+          <Route path='/' element={<div style={{ margin: "0% 0% 0% 8%" }}><MainPage></MainPage></div>}></Route>
+          <Route path='contact' element={<Contact></Contact>}></Route>
+        </Routes>
+      </BrowserRouter >
     </>
   )
 }

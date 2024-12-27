@@ -89,7 +89,7 @@
   /* border: solid black; */
   width: fit-content;
   height:4em;
-  margin: -14% 0% 0% 1%;
+  margin: -18% 0% 0% 1%;
 
 }
 
@@ -133,5 +133,8 @@ a{
   color: #252525;
 }
 
+.headerPaths:hover{
+  cursor: pointer;
+}
 
 
