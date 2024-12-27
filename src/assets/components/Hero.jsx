@@ -3,8 +3,8 @@ import React from 'react'
 export const Hero = () => {
     return (
         <>
-            <main style={{ display: "flex", placeContent: "center", height: "auto" }}>
-                <div style={{ marginLeft: "10%" }}>
+            <main style={{ display: "flex" }}>
+                <div >
                     <div style={{ display: "flex" }}>
                         <div id='fast'>
                             <h1>Fast</h1>
@@ -13,14 +13,14 @@ export const Hero = () => {
                             <h2 >Food Delivery</h2>
                             <img src="../../public/arrow.svg" alt="" />
                         </div>
+                    </div>
 
-                        <div id='textin'>
-                            <p>Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium</p>
-                        </div>
+                    <div id='textin'>
+                        <p>Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium</p>
                     </div>
                 </div>
 
-                <div style={{ marginRight: "10%" }}>
+                <div>
                     <img src="../../public/mainImage.svg" alt="" />
                 </div>
             </main>

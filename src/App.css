@@ -44,6 +44,8 @@
   min-width:40%;
 }
 
+
+/* Hero */
 #fast{
   color: #ff7e00;
   
@@ -57,7 +59,7 @@
   display: flex;
   line-height: -5%;
   margin-top: 8%;
-  margin-left: 1%;
+  /* margin-left: 1%; */
   font-size: 1cm;
   /* border: solid black; */
   max-height: 5%;
@@ -73,11 +75,11 @@
 
 #textin{
   /* border: solid black; */
+  margin: -10% 0 0 6%;
+
   width: 55%;
   height: fit-content;
   color: #909090;
-  margin-top: 35%;
-  margin-left: -40%;
   font-size: large;
 }
 
@@ -87,8 +89,7 @@
   /* border: solid black; */
   width: fit-content;
   height:4em;
-  margin-top: -20em;
-  margin-left: 13em;
+  margin: -14% 0% 0% 1%;
 
 }
 
@@ -133,5 +134,4 @@ a{
 }
 
 
-/* rating stars */
 
