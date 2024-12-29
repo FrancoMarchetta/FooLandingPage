@@ -137,4 +137,11 @@ a{
   cursor: pointer;
 }
 
+.headerPathsUnderlined{
+  text-decoration: underline;
+  color: #f87d01;
+  font-size: larger;
+  transition: .2s;
+}
+
 
