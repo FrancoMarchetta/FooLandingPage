@@ -3,7 +3,7 @@ import Header from './assets/components/Header'
 import Contact from './assets/pages/Contact';
 import MainPage from './assets/pages/MainPage'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Shop from './assets/pages/Shop';
+import Shop from './assets/pages/ShoppingCart';
 import Menu from './assets/pages/Menu';
 
 

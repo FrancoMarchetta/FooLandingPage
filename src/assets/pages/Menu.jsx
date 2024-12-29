@@ -1,8 +1,14 @@
 import React from 'react'
+import MenuCard from '../components/MenuCard'
 
 const Menu = () => {
     return (
-        <div>Menu</div>
+        <>
+            <section className='menuSection'>
+
+
+            </section>
+        </>
     )
 }
 

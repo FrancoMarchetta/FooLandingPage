@@ -24,25 +24,27 @@
 
 .header-options{
   display: flex;
-  margin-left: 26%;
+  margin-left: 20%;
   float: right;
   /* border: solid black; */
-  gap: 50px;
+  gap: 65px;
   font-family: Poppins;
+  width: fit-content;
 }
 
 .header-options input{
   transition: .5s;
   border-radius: 20px;
-  min-width: 30%;
+  min-width: 20%;
   max-height:40%;
   margin-top: 1.5%;
+  margin-right: 9.5%;
   background-color: #f6f0e7;
 }
 
-.header-options input:focus{
+/* .header-options input:focus{
   min-width:40%;
-}
+} */
 
 
 /* Hero */
@@ -142,6 +144,15 @@ a{
   color: #f87d01;
   font-size: larger;
   transition: .2s;
+  flex-wrap: nowrap;
 }
 
+/* menu section */
+.menuSection{
+  margin: 5% -2% 0% 9%;
+  display: flex;
+  flex-flow: wrap;
+  gap: 15%;
+  column-gap: 15%;
+}
 
