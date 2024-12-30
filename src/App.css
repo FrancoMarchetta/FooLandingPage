@@ -7,6 +7,10 @@
   display: flex;
   gap: 30%;
   font-size: larger;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  background-color: #f6f0e7;
   
 }
 
@@ -149,7 +153,9 @@ a{
 
 /* menu section */
 .menuSection{
-  margin: 5% -2% 0% 9%;
+  margin: 5% 0% 0% 0%;
+  /* border: solid black; */
+  height: fit-content;
   display: flex;
   flex-flow: wrap;
   gap: 15%;

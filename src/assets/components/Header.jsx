@@ -26,7 +26,7 @@ const Header = () => {
 
     return (
         <>
-            <header className='header' >
+            <header className='header ' >
                 <div style={{ cursor: "pointer" }} onClick={goToHome} id='foo-and-image'>
                     <img src="../../public/chef-hat (2) 1.svg" alt="" />
                     <h1>Foo</h1>
@@ -39,7 +39,7 @@ const Header = () => {
                     {window.location.pathname == "/shop" ? <p style={{ width: "12em" }} className='headerPaths headerPathsUnderlined' onClick={goToShop} >Shopping Cart</p> : <p style={{ width: "12em" }} className='headerPaths ' onClick={goToShop}>Shopping Cart</p>}
                     <input type="text" placeholder='Search' />
                 </div>
-            </header>
+            </header >
 
 
         </>

@@ -9,6 +9,7 @@ import Menu from './assets/pages/Menu';
 
 
 
+
 function App() {
 
   return (
@@ -16,10 +17,10 @@ function App() {
       <BrowserRouter>
         <Header></Header>
         <Routes>
-          <Route path='/' element={<div style={{ margin: "0% 0% 0% 8%" }}><MainPage></MainPage></div>}></Route>
-          <Route path='/contact' element={<Contact></Contact>}></Route>
+          <Route path='/' element={<div style={{ margin: "5% 0% 0% 8%" }}><MainPage></MainPage></div>}></Route>
+          <Route path='/contact' element={<div style={{ margin: "5% 0% 0% 0%" }}><Contact></Contact></div>}></Route>
+          <Route path='/menu' element={<div style={{ margin: "5% 0% 0% 26%" }}><Menu></Menu></div>}></Route>
           <Route path='/shop' element={<Shop></Shop>}></Route>
-          <Route path='/menu' element={<Menu></Menu>}></Route>
         </Routes>
       </BrowserRouter >
     </>
