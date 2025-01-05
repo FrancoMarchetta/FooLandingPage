@@ -19,10 +19,6 @@ const Header = () => {
     }
 
 
-    console.log(window.location.pathname);
-
-
-
 
     return (
         <>
@@ -38,6 +34,8 @@ const Header = () => {
                     {window.location.pathname == "/menu" ? <p className='headerPaths headerPathsUnderlined' onClick={goToMenu} >Menu</p> : <p className='headerPaths ' onClick={goToMenu}>Menu</p>}
                     {window.location.pathname == "/shop" ? <p style={{ width: "12em" }} className='headerPaths headerPathsUnderlined' onClick={goToShop} >Shopping Cart</p> : <p style={{ width: "12em" }} className='headerPaths ' onClick={goToShop}>Shopping Cart</p>}
                     <input type="text" placeholder='Search' />
+                    {/* {window.location.pathname == "/menu" && <input type="text" placeholder='Search' />} */} {/*<-- la alternativa al input */}
+
                 </div>
             </header >
 

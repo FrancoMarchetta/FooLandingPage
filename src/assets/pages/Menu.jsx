@@ -1,29 +1,15 @@
 import React from 'react'
 import MenuCard from '../components/MenuCard'
+import menu from "../../Menu.json"
 
 const Menu = () => {
-    const description = "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Soluta voluptatem doloribus sequi ut inventore praesentium.Quas hic similique veritatis, error facere facilis, asperiores consectetur ex sit vitae saepe, officia ut?"
 
     return (
         <>
             <section className='menuSection'>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
-                <MenuCard id={1} name={"namename"} description={description} price={65} image={"../../public/fff.png"}></MenuCard>
+                {menu.map((menu, i) => (
+                    <MenuCard id={menu.id} name={menu.name} description={menu.description} price={menu.price} image={menu.image}></MenuCard>
+                ))}
             </section>
         </>
     )

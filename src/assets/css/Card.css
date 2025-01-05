@@ -6,7 +6,7 @@
 }
 .menuCard img{
   width: 20%;
-  height: 80%;
+  height: fit-content;
   align-items: center;
 }
 .menuCard p{

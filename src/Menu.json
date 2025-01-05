@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "image": "https://via.placeholder.com/200?text=Classic+Burger",
+        "name": "Classic Burger",
+        "price": 9.99,
+        "description": "A juicy beef patty with lettuce, tomato, cheese, and our special sauce."
+    },
+    {
+        "id": 2,
+        "image": "https://via.placeholder.com/200?text=Margherita+Pizza",
+        "name": "Margherita Pizza",
+        "price": 12.99,
+        "description": "Classic pizza topped with fresh mozzarella, basil, and tomato sauce."
+    },
+    {
+        "id": 3,
+        "image": "https://via.placeholder.com/200?text=Sushi+Platter",
+        "name": "Sushi Platter",
+        "price": 19.99,
+        "description": "An assortment of fresh sushi rolls and nigiri."
+    },
+    {
+        "id": 4,
+        "image": "https://via.placeholder.com/200?text=Creamy+Alfredo+Pasta",
+        "name": "Creamy Alfredo Pasta",
+        "price": 14.99,
+        "description": "Fettuccine pasta tossed in a creamy Alfredo sauce with grilled chicken."
+    },
+    {
+        "id": 5,
+        "image": "https://via.placeholder.com/200?text=Street+Tacos",
+        "name": "Street Tacos",
+        "price": 8.99,
+        "description": "Three tacos filled with marinated beef, fresh cilantro, and onion."
+    },
+    {
+        "id": 6,
+        "image": "https://via.placeholder.com/200?text=Caesar+Salad",
+        "name": "Caesar Salad",
+        "price": 7.99,
+        "description": "Crisp romaine lettuce, Parmesan cheese, and croutons, served with Caesar dressing."
+    },
+    {
+        "id": 7,
+        "image": "https://via.placeholder.com/200?text=Grilled+Ribeye+Steak",
+        "name": "Grilled Ribeye Steak",
+        "price": 24.99,
+        "description": "A tender ribeye steak cooked to perfection and served with garlic butter."
+    },
+    {
+        "id": 8,
+        "image": "https://via.placeholder.com/200?text=Fluffy+Pancakes",
+        "name": "Fluffy Pancakes",
+        "price": 6.99,
+        "description": "Stack of pancakes served with syrup, butter, and fresh berries."
+    },
+    {
+        "id": 9,
+        "image": "https://via.placeholder.com/200?text=Spicy+Tonkotsu+Ramen",
+        "name": "Spicy Tonkotsu Ramen",
+        "price": 13.99,
+        "description": "Rich and creamy pork broth with noodles, chashu, and a soft-boiled egg."
+    },
+    {
+        "id": 10,
+        "image": "https://via.placeholder.com/200?text=Ice+Cream+Sundae",
+        "name": "Ice Cream Sundae",
+        "price": 5.99,
+        "description": "Vanilla ice cream topped with chocolate sauce, whipped cream, and a cherry."
+    }
+]
