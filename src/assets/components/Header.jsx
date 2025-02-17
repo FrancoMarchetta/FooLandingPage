@@ -29,13 +29,27 @@ const Header = () => {
                 </div>
 
                 <div className='header-options'>
-                    {window.location.pathname == "/" ? <p className='headerPaths headerPathsUnderlined' onClick={goToHome}>Home</p> : <p className='headerPaths ' onClick={goToHome}>Home</p>}
-                    {window.location.pathname == "/contact" ? <p className='headerPaths headerPathsUnderlined' onClick={goToContact}>Contact</p> : <p className='headerPaths ' onClick={goToContact}>Contact</p>}
-                    {window.location.pathname == "/menu" ? <p className='headerPaths headerPathsUnderlined' onClick={goToMenu} >Menu</p> : <p className='headerPaths ' onClick={goToMenu}>Menu</p>}
-                    {window.location.pathname == "/shop" ? <p style={{ width: "12em" }} className='headerPaths headerPathsUnderlined' onClick={goToShop} >Shopping Cart</p> : <p style={{ width: "12em" }} className='headerPaths ' onClick={goToShop}>Shopping Cart</p>}
+                    {window.location.hash == "#/" ? (
+                        <p className='headerPaths headerPathsUnderlined' onClick={goToHome}>Home</p>
+                    ) : (
+                        <p className='headerPaths' onClick={goToHome}>Home</p>
+                    )}
+                    {window.location.hash == "#/contact" ? (
+                        <p className='headerPaths headerPathsUnderlined' onClick={goToContact}>Contact</p>
+                    ) : (
+                        <p className='headerPaths' onClick={goToContact}>Contact</p>
+                    )}
+                    {window.location.hash == "#/menu" ? (
+                        <p className='headerPaths headerPathsUnderlined' onClick={goToMenu}>Menu</p>
+                    ) : (
+                        <p className='headerPaths' onClick={goToMenu}>Menu</p>
+                    )}
+                    {window.location.hash == "#/shop" ? (
+                        <p style={{ width: "12em" }} className='headerPaths headerPathsUnderlined' onClick={goToShop}>Shopping Cart</p>
+                    ) : (
+                        <p style={{ width: "12em" }} className='headerPaths' onClick={goToShop}>Shopping Cart</p>
+                    )}
                     <input type="text" placeholder='Search' />
-                    {/* {window.location.pathname == "/menu" && <input type="text" placeholder='Search' />} */} {/*<-- la alternativa al input */}
-
                 </div>
             </header >
 
