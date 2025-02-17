@@ -11,7 +11,7 @@ export const Hero = () => {
                         </div>
                         <div id='foodDelivery'>
                             <h2 >Food Delivery</h2>
-                            <img src="../../public/arrow.svg" alt="" />
+                            <img src="/arrow.svg" alt="" />
                         </div>
                     </div>
 
@@ -21,7 +21,7 @@ export const Hero = () => {
                 </div>
 
                 <div>
-                    <img src="../../public/mainImage.svg" alt="" />
+                    <img src="/mainImage.svg" alt="" />
                 </div>
             </main>
 
@@ -32,7 +32,7 @@ export const Hero = () => {
 
                 <div id='watchVideo' style={{ display: "flex" }} >
                     <a target='blank' href="https://www.youtube.com/watch?v=B4LvDiIi128&t=49s">
-                        <img astyle={{ height: "fit-content" }} src="../../public/playIcon.svg" alt="" />
+                        <img astyle={{ height: "fit-content" }} src="/playIcon.svg" alt="" />
                     </a>
                     <a target='blank' href="https://www.youtube.com/watch?v=B4LvDiIi128&t=49s">
                         <p>Watch Video</p>

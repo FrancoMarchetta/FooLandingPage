@@ -24,7 +24,7 @@ const Header = () => {
         <>
             <header className='header ' >
                 <div style={{ cursor: "pointer" }} onClick={goToHome} id='foo-and-image'>
-                    <img src="../../public/chef-hat (2) 1.svg" alt="" />
+                    <img src="/chef-hat (2) 1.svg" alt="" />
                     <h1>Foo</h1>
                 </div>
 
