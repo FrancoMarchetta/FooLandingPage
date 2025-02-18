@@ -8,7 +8,7 @@ const Menu = () => {
         <>
             <section className='menuSection'>
                 {menu.map((menu, i) => (
-                    <MenuCard id={menu.id} name={menu.name} description={menu.description} price={menu.price} image={menu.image}></MenuCard>
+                    <MenuCard id={menu.id} key={menu.id} name={menu.name} description={menu.description} price={menu.price} image={menu.image}></MenuCard>
                 ))}
             </section>
         </>

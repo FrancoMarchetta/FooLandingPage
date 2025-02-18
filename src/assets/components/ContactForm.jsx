@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import "../css/Form.css";
 import emailjs from "@emailjs/browser";
-const ContactForm = () => {
+function ContactForm() {
+
+    const sendButtonRef = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
-        alert("submited");
+        // alert("submited");
         emailjs.sendForm("service_zdebejf", "template_ac20z2m", e.target, "LJdNbJzB72B0ya1b6");
+        sendButtonRef.current.disabled = true;
+        console.log("desactivado");
+
+
+        setTimeout(() => {
+            sendButtonRef.current.disabled = false;
+            console.log("activado");
+
+        }, 10000);
     }
+
 
     return (
         <>
@@ -24,7 +36,7 @@ const ContactForm = () => {
                             <input name='message' placeholder="Enter your message" className="form_style" type="text" />
                         </div>
                         <div>
-                            <button type='submit' className="btn">Send</button>
+                            <button ref={sendButtonRef} type='submit' className="btn">Send</button>
                         </div>
                     </form>
                 </div>
