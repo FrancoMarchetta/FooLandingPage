@@ -6,7 +6,7 @@
 .header{
   display: flex;
   gap: 30%;
-  font-size: larger;
+  font-size: large;
   position: fixed; 
   top: 0; 
   width: 100%; 
@@ -21,28 +21,34 @@
 }
 
 #foo-and-image img{
-  max-width: 80% ;
+  max-width: 60% ;
 }
 
+#shoppingCart{
+  flex-wrap:nowrap;
+  /* overflow: visible; */
+
+}
 
 
 .header-options{
   display: flex;
-  margin-left: 20%;
+  margin-left: 10%;
   float: right;
   /* border: solid black; */
-  gap: 65px;
+  gap: 9%;
   font-family: Poppins;
   width: fit-content;
+  flex-wrap:nowrap;
 }
 
 .header-options input{
   transition: .5s;
   border-radius: 20px;
-  min-width: 20%;
+  min-width: 30%;
   max-height:40%;
   margin-top: 1.5%;
-  margin-right: 9.5%;
+  margin-right: -25%;
   background-color: #f6f0e7;
 }
 
@@ -138,6 +144,12 @@ a{
   text-decoration: none;
   color: #252525;
 }
+
+.headerPaths{
+  flex-wrap:nowrap;
+
+}
+
 
 .headerPaths:hover{
   cursor: pointer;

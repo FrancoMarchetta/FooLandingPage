@@ -45,9 +45,9 @@ const Header = () => {
                         <p className='headerPaths' onClick={goToMenu}>Menu</p>
                     )}
                     {window.location.hash == "#/shop" ? (
-                        <p style={{ width: "12em" }} className='headerPaths headerPathsUnderlined' onClick={goToShop}>Shopping Cart</p>
+                        <p id="shoppingCart" style={{ width: "12em" }} className='headerPaths headerPathsUnderlined' onClick={goToShop}>Shopping Cart</p>
                     ) : (
-                        <p style={{ width: "12em" }} className='headerPaths' onClick={goToShop}>Shopping Cart</p>
+                        <p id="shoppingCart" style={{ width: "12em" }} className='headerPaths' onClick={goToShop}>Shopping Cart</p>
                     )}
                     <input type="text" placeholder='Search' />
                 </div>
