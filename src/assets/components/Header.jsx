@@ -29,6 +29,11 @@ const Header = () => {
                 </div>
 
                 <div className='header-options'>
+                    {window.location.hash == "" ? (
+                        <p className='headerPaths headerPathsUnderlined' onClick={goToHome}>Home</p>     //resalta home desde el inicio
+                    ) : (
+                        <p className='headerPaths' onClick={goToHome}>Home</p>
+                    )}
                     {window.location.hash == "#/" ? (
                         <p className='headerPaths headerPathsUnderlined' onClick={goToHome}>Home</p>
                     ) : (
